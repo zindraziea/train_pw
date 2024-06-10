@@ -1,0 +1,154 @@
+{
+  "config": {
+    "configFile": "/Users/jiratheakthitiworranun/train_playwright/playwright.config.ts",
+    "rootDir": "/Users/jiratheakthitiworranun/train_playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/jiratheakthitiworranun/train_playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/jiratheakthitiworranun/train_playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.44.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "zapi/zapi2.spec.ts",
+      "file": "zapi/zapi2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Home",
+          "file": "zapi/zapi2.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "ZT-3 test pass with scrtipt for capture screen",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 8958,
+                      "error": {
+                        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"Practice E-Commerce Site – SDET Unicorns\"\u001b[39m\nReceived string: \u001b[31m\"CURA Healthcare Service\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n",
+                        "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"Practice E-Commerce Site – SDET Unicorns\"\u001b[39m\nReceived string: \u001b[31m\"CURA Healthcare Service\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\n    at /Users/jiratheakthitiworranun/train_playwright/tests/zapi/zapi2.spec.ts:17:28",
+                        "location": {
+                          "file": "/Users/jiratheakthitiworranun/train_playwright/tests/zapi/zapi2.spec.ts",
+                          "column": 28,
+                          "line": 17
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m homePage\u001b[33m.\u001b[39mnavigate()\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m         \u001b[90m// verify title\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m'Practice E-Commerce Site – SDET Unicorns'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m         \u001b[90m// attach screenshot path to test result\u001b[39m\n \u001b[90m 19 |\u001b[39m         \u001b[36mconst\u001b[39m resultPath \u001b[33m=\u001b[39m \u001b[32m`${process.cwd()}/test-results/screenshot/${testInfo.title}.png`\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m resultPath })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/jiratheakthitiworranun/train_playwright/tests/zapi/zapi2.spec.ts",
+                            "column": 28,
+                            "line": 17
+                          },
+                          "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"Practice E-Commerce Site – SDET Unicorns\"\u001b[39m\nReceived string: \u001b[31m\"CURA Healthcare Service\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"CURA Healthcare Service\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m homePage\u001b[33m.\u001b[39mnavigate()\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m         \u001b[90m// verify title\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m'Practice E-Commerce Site – SDET Unicorns'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m         \u001b[90m// attach screenshot path to test result\u001b[39m\n \u001b[90m 19 |\u001b[39m         \u001b[36mconst\u001b[39m resultPath \u001b[33m=\u001b[39m \u001b[32m`${process.cwd()}/test-results/screenshot/${testInfo.title}.png`\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m resultPath })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/jiratheakthitiworranun/train_playwright/tests/zapi/zapi2.spec.ts:17:28\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Before each test\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-06T06:16:10.666Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/jiratheakthitiworranun/train_playwright/test-results/zapi-zapi2-Home-ZT-3-test--8c123--scrtipt-for-capture-screen-chromium/test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/jiratheakthitiworranun/train_playwright/tests/zapi/zapi2.spec.ts",
+                        "column": 28,
+                        "line": 17
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "0617c1340adc6dac4d87-2983c73ee41134e34cac",
+              "file": "zapi/zapi2.spec.ts",
+              "line": 12,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-06-06T06:15:59.986Z",
+    "duration": 20790.336000000003,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

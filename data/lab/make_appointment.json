@@ -1,0 +1,22 @@
+{
+    "default_user": {
+        "username": "John Doe",
+        "password": "ThisIsNotAPassword"
+    },
+    "make_appointment": [
+        {
+            "facility": "Seoul CURA Healthcare Center",
+            "readmission": true,
+            "program": "Medicaid",
+            "date": "12/12/2024",
+            "comment": "This is a comment"
+        },
+        {
+            "facility": "Hongkong CURA Healthcare Center",
+            "readmission": false,
+            "program": "Medicare",
+            "date": "13/12/2024",
+            "comment": "This is a comment"
+        }
+    ]
+}
